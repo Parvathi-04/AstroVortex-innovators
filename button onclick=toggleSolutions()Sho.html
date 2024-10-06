@@ -1,0 +1,17 @@
+<button onclick="toggleSolutions()">Show/Hide Solutions</button>
+<ul id="solutions" style="display: none;">
+    <li>Waste management improvement</li>
+    <li>Sewage treatment upgrades</li>
+    <li>Community clean-up drives</li>
+</ul>
+
+<script>
+function toggleSolutions() {
+    var solutions = document.getElementById('solutions');
+    if (solutions.style.display === 'none') {
+        solutions.style.display = 'block';
+    } else {
+        solutions.style.display = 'none';
+    }
+}
+</script>
